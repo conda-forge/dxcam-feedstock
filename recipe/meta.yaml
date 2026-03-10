@@ -1,5 +1,5 @@
 {% set name = "dxcam" %}
-{% set version = "0.1.0" %}
+{% set version = "0.2.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/dxcam-{{ version }}.tar.gz
-  sha256: 0b5fefb0f81628db61fe88ff014851fbbe27978d826300a49436b91800bcb724
+  sha256: bea0124e6893c629c8c55ba31ec1dcb9a2ba8f13317e62ffef7b859471b451e0
 
 build:
   noarch: python
